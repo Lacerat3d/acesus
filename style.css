@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header .logo {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  header .logo img {
+    max-width: 100%;
+  }
+  
+  header .cart {
+    flex-basis: 10%;
+    text-align: right;
+    font-size: 18px;
+  }
+  
+  header .cart img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .hero {
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .cta {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .hero .cta:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .featured-products {
+    padding: 50px 0;
+  }
+  
+  .featured-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .featured-products ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .featured-products ul li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .featured-products ul li img {
+    max-width: 100%;
+  }
+  
+  .featured-products ul li h3 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  .featured-products ul li p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .featured-products ul li .cta {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+    }
+    
+    .featured-products ul li .cta:hover {
+    background-color: #fff;
+    color: #333;
+    }
+    
+    footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+    }
