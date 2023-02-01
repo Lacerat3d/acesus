@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!----This is a website made by David Josiah Dychioco --->
+  <title>My E-Commerce Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Timekeeper PH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="DYCHIOCO_EX4.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="abt.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products and Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Test.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cart">
+        <span>Cart</span>
+        <span>0</span>
+      </div>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <h1 class="text-center">Welcome to Our Online Store!</h1>
+      <p class="text-center">Find the perfect products for your needs.</p>
+      <div class="text-center">
+        <map name="workmap">
+          <area shape="default" href="https://www.lazada.com.ph/shop/seatime/?spm=a2o4l.pdp_revamp.seller.1.1281587cMEetbp&itemId=3470876615&channelSource=pdp">
+        </map>
+          <img src="Laz.png" alt="Laz" usemap="#workmap">
+      </div>
+    </div>
+  </section>
+  <section class="featured-products">
+    <div class="container">
+      <h2 class="text-center">Featured Products</h2>
+      <div class="row">
+        <div class="col-sm-4">
+        <div class="card">
+        <img class="card-img-top" src="https://lzd-img-global.slatic.net/g/p/354a10867a3bfa87e07252b3fa1746e7.jpg_720x720q80.jpg_.webp" >
+        <div class="card-body">
+        <h3 class="card-title">Product 1</h3>
+        <p class="card-text">Silver case with white dial, silver hands, and silver spikes.</p>
+        <a href="#" class="btn btn-primary">View Product</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="card">
+        <img class="card-img-top" src="https://lzd-img-global.slatic.net/g/p/3c8d6a6647aff8595f4a37f285d6f241.jpg_720x720q80.jpg_.webp" >
+        <div class="card-body">
+        <h3 class="card-title">Product 2</h3>
+        <p class="card-text">Rose Gold case with White dial, Rose gold hands, and Rose gold spikes.</p>
+        <a href="#" class="btn btn-primary">View Product</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+            <img class="card-img-top" src="https://lzd-img-global.slatic.net/g/p/d43ac42c56ab64c1266ac923c3b16f9e.jpg_720x720q80.jpg_.webp" >
+            <div class="card-body">
+            <h3 class="card-title">Product 3</h3>
+            <p class="card-text">Silver case with black dial, silver hands, and silver spikes.</p>
+            <a href="#" class="btn btn-primary">View Product</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+              </section>
+              <footer>
+                <div class="container">
+                  <p>Copyright &copy; My E-Commerce Website</p>
+                </div>
+              </footer>
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            </body>
+            </html>
